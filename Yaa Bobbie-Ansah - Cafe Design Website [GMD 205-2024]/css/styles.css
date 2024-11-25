@@ -1,0 +1,72 @@
+* { margin: 0; padding: 0; } /* in CSS, "*" means "all elements" - this makes it a "universal selector" */
+
+ol, ul { 
+list-style: none; 
+margin: 0;
+}
+
+ul li { 
+margin: 0; 
+padding: 0;
+}
+
+article, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+	}
+@charset "UTF-8";
+body {
+    background-color: #E1D9D9; 
+    font-family: Trebuchet, sans-serif;
+    margin: 0px;
+    padding: 30px auto;
+   }
+   
+nav {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+    margin:auto;
+    padding: 48px 48px 0px 48px;
+    font-size:3em;
+}
+main {margin:30px;}
+
+#background {width:100%;}
+header {background-color: #C6D5C6;
+    height: 136px;
+}
+#logo {float:left;
+    margin: -80px 124px 0px 156px;
+  
+}
+
+h1 {color: #ffffff;}
+
+h2 { border:#ffffff;
+
+}
+
+#tahitian {float:left;
+           padding: 0px 126px 80px 126px;
+}
+#chamomile {float:right;
+            padding: 0px 126px;    
+}
+
+#cheesecake {float: left;
+             padding: 0px 126px 160px 126px;  
+             box-sizing: border-box;  
+                
+}
+#macaron {float:right;
+          padding: 80px 126px ;
+          
+}
+
+footer {
+    background-color: #FFF4F4;
+    clear: both;
+    padding: 40px 0px 70px 40px;
+}
